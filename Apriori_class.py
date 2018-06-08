@@ -88,29 +88,4 @@ class arules():
             Hmp1 = self.calcConf(freqSet,Hmp1,SupportData,brl,)
             if (len(Hmp1) > 1):
                 self.rulesFromConseq(freqSet, Hmp1, SupportData, brl, minConf)
-            
-
-    
-        
-    
-                
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+                   

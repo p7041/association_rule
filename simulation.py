@@ -26,6 +26,7 @@ def simul(comboPrice,iter=10000,c1=12,c2=8,s1=5,s2=5):
         total_profit += profit
     return round(total_profit,2)
 
+
 pList = []
 for cp in range(30,51):
     pList.append(simul(cp,iter=10000,c1=12,c2=8,s1=5,s2=5))
@@ -40,6 +41,8 @@ plt.xlabel('Combo Price')
 plt.ylabel('Profit')
 plt.show()  
 
+
+###Simulation with different std values and costs
 def param():    
     s1 = list(range(3,11))  
     s2 = list(range(3,11))         
@@ -65,17 +68,3 @@ def fullsimul():
     return op_price_list
         
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
